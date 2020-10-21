@@ -12,6 +12,7 @@ html {
 }
 
 .nav {
+  position: fixed;
   width: 100%;
   background-color: white;
   height: 66px;
@@ -67,17 +68,18 @@ html {
 
 /* start main */
 .main {
+  position: relative;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 12%;
-  padding: 10px;
+  top: 14.5%;
+  margin-left: 4%;
 }
 
 .main_text {
   font-family: sen;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 36px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.2px;
   color: #fff;
   line-height: 52px;
   margin-top: 70px;
@@ -86,12 +88,14 @@ html {
 .main_movie > img {
   width: 500px;
   border-radius: 5px;
-  padding-left: 120px;
+  padding-left: 140px;
 }
 
 /* input subscribe */
 .email {
-  margin-left: 100px;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 14%;
 }
 
 .email_label > label {
@@ -113,8 +117,8 @@ html {
 
 .email_input > input {
   width: 480px;
-  height: 40px;
-  max-height: 40px;
+  height: 42px;
+  max-height: 42px;
   border-radius: 25px;
   border: none;
   margin-top: 10px;
@@ -127,18 +131,14 @@ html {
   color: #576677;
 }
 
-.email_input > button {
-  width: 154px;
-  height: 43px;
-  border: none;
-  background-color: #38a5db;
+.btn {
+  width: 12% !important;
+  margin-left: -80px !important;
   color: #fff;
+  background: #38a5db;
   border-radius: 25px;
-  font-family: sen;
-  font-size: 18px;
-  max-height: 43px;
-
-  margin-left: -80px;
+  height: 44px !important;
+  max-height: 44px !important;
 }
 
 /* start team */
