@@ -1,4 +1,5 @@
-* {
+*,
+html {
   margin: 0;
 }
 
@@ -8,11 +9,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 1315px;
-  overflow-y: hidden;
 }
 
 .nav {
-  position: fixed;
   width: 100%;
   background-color: white;
   height: 66px;
@@ -63,6 +62,7 @@
 
 .nav_menu > ul > a:hover {
   border-bottom: 2px solid #1c2085;
+  max-height: 18px;
 }
 
 /* start main */
@@ -75,7 +75,7 @@
 
 .main_text {
   font-family: sen;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 36px;
   letter-spacing: 0.1px;
   color: #fff;
@@ -86,7 +86,7 @@
 .main_movie > img {
   width: 500px;
   border-radius: 5px;
-  padding-left: 50px;
+  padding-left: 120px;
 }
 
 /* input subscribe */
@@ -102,11 +102,9 @@
 
   font-family: Sen;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
-  /* identical to box height, or 144% */
-
+  margin-bottom: 50px;
   color: #ffffff;
 
   mix-blend-mode: normal;
@@ -115,19 +113,127 @@
 
 .email_input > input {
   width: 480px;
-  height: 38px;
+  height: 40px;
+  max-height: 40px;
   border-radius: 25px;
   border: none;
+  margin-top: 10px;
+}
+
+.email_input > input::placeholder {
+  font-family: Sen;
+  font-size: 17px;
+  line-height: 20px;
+  color: #576677;
 }
 
 .email_input > button {
   width: 154px;
-  height: 42px;
-  margin-left: -70px;
+  height: 43px;
   border: none;
   background-color: #38a5db;
   color: #fff;
   border-radius: 25px;
   font-family: sen;
   font-size: 18px;
+  max-height: 43px;
+
+  margin-left: -80px;
+}
+
+/* start team */
+.team {
+  margin: 345px 80px 0 80px;
+}
+
+.team > h6 {
+  font-family: sen;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.card_one {
+  display: block;
+  justify-items: center;
+  width: 215px;
+  height: 266px;
+}
+
+.card_one > img {
+  align-content: center;
+  border-radius: 80px;
+}
+
+.card_one > h6 {
+  text-align: center;
+}
+
+/* contact */
+.contact {
+  width: 100%;
+  height: 693px;
+  background-color: #252b42;
+}
+
+.contact > h6 {
+  font-family: sen;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  letter-spacing: 12px;
+  text-align: center;
+  color: #fff;
+  padding-top: 88px;
+}
+.contact_text {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  padding: 26px;
+}
+
+.box_form {
+  display: flex;
+  flex-direction: column;
+  width: 401px;
+  height: 370px;
+  background-color: #4250bf;
+  border-radius: 13px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.box_form > input {
+  width: 319px;
+  height: 46px;
+  margin-left: 41px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 24px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 225px;
+  background: linear-gradient(
+    180deg,
+    #fafbff 0%,
+    #eff1f9 41.68%,
+    #e9ecf6 49.59%,
+    #ced3e8 93.91%
+  );
 }
