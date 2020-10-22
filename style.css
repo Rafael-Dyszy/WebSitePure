@@ -70,23 +70,23 @@ html {
   position: relative;
   display: flex;
   justify-content: space-evenly;
-  top: 12.5%;
-  margin-left: 8%;
+  top: 11.5%;
+  margin-left: 4%;
 }
 
 .main_text {
   font-family: sen;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 38px;
   letter-spacing: 0.2px;
   color: #fff;
   line-height: 52px;
   margin-top: 50px;
-  padding: 10px;
+  padding: 18px;
 }
 /* movie modal */
 .main_movie > img {
-  width: 650px;
+  width: 600px;
   border-radius: 5px;
   padding-left: 140px;
 }
@@ -188,7 +188,7 @@ html {
   height: 266px;
 }
 
-.card_one > img {
+.card_one  > img {
   align-content: center;
   border-radius: 80px;
 }
@@ -436,4 +436,98 @@ html {
 
 .lastP {
   border-right: none !important;
+}
+
+/* modal css */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  /* padding: 20px; */
+  border: 1px solid #888;
+  width: 630px;
+  height: 644px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.25);
+}
+
+.modal-content > h3{
+ 
+left: 28.12%;
+right: 28.12%;
+top: 34.5%;
+bottom: 64.12%;
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 34px;
+/* identical to box height, or 85% */
+text-align: center;
+color: #38A5DB;
+}
+
+.modal-content > h6{
+left: 30.21%;
+right: 30.21%;
+bottom: 62.41%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.26px;
+color: #011226;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.content_modal{
+  position: absolute;
+  width: 90%;
+height: 500px;
+margin-left: 5%;
+top: 100px;
+
+font-family: Sen;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+
+color: #45515F;
+overflow: auto;
+text-indent: unset;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
