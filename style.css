@@ -25,7 +25,7 @@ html {
 }
 
 .nav_logo {
-  line-height: 95px;
+  line-height: 64px;
   margin-left: 126px;
   width: 60px !important;
 }
@@ -70,23 +70,23 @@ html {
   position: relative;
   display: flex;
   justify-content: space-evenly;
-  top: 14.5%;
-  margin-left: 4%;
+  top: 12.5%;
+  margin-left: 8%;
 }
 
 .main_text {
   font-family: sen;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 38px;
   letter-spacing: 0.2px;
   color: #fff;
   line-height: 52px;
-  margin-top: 70px;
+  margin-top: 50px;
   padding: 10px;
 }
-
+/* movie modal */
 .main_movie > img {
-  width: 500px;
+  width: 650px;
   border-radius: 5px;
   padding-left: 140px;
 }
@@ -95,20 +95,17 @@ html {
 .email {
   position: relative;
   margin-left: 10%;
-  margin-top: 14%;
+  margin-top: 8%;
 }
 
 .email_label > label {
   height: 26px;
-  left: 0%;
-  right: 0%;
-  top: calc(50% - 26px / 2 + 3px);
-
+  margin-top: 50px;
   font-family: Sen;
   font-style: normal;
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #ffffff;
 
   mix-blend-mode: normal;
@@ -121,7 +118,7 @@ html {
   max-height: 42px;
   border-radius: 25px;
   border: none;
-  margin-top: 10px;
+  margin-top: -5px;
 }
 
 .email_input > input::placeholder {
@@ -129,6 +126,7 @@ html {
   font-size: 17px;
   line-height: 20px;
   color: #576677;
+  text-align: center;
 }
 
 .btn {
@@ -137,21 +135,21 @@ html {
   color: #fff;
   background: #38a5db;
   border-radius: 25px;
-  height: 44px !important;
-  max-height: 44px !important;
-  padding: 10px;
+  height: 42px !important;
+  /* max-height: 44px !important; */
+  /* padding: 10px; */
 }
 
 /* start team */
 .team {
-  margin: 345px 80px 0 80px;
+  margin: 385px 80px 0 80px;
   height: 700px;
 }
 
 .team_icon {
   color: rgb(255, 255, 255);
   margin-left: 48%;
-  margin-top: -220px;
+  margin-top: -260px;
   margin-bottom: 150px;
   /* box-sizing: border-box; */
 }
@@ -179,7 +177,7 @@ html {
 .cards {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .card_one {
@@ -318,6 +316,7 @@ html {
   border-radius: 25px;
   border: none;
   margin-top: 24px;
+  text-align: center;
 }
 
 .box_checkbox {
@@ -338,7 +337,7 @@ html {
   height: 46px;
   border: none;
   float: left;
-  margin: 35px 30px;
+  margin: 15px 30px;
   background: #38a5db;
   border-radius: 23px;
   font-family: sen;
