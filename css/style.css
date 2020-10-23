@@ -1,16 +1,18 @@
 * {
   margin: 0;
 }
-html {
-  scroll-behavior: smooth;
-}
 
-.all {
+body{
+  width: 100%;
   background-image: url('../img/BG.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1315px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -70,7 +72,6 @@ html {
   position: relative;
   display: flex;
   justify-content: space-evenly;
-  top: 11.5%;
   margin-left: 4%;
 }
 
@@ -81,7 +82,7 @@ html {
   letter-spacing: 0.2px;
   color: #fff;
   line-height: 52px;
-  margin-top: 50px;
+  margin-top: 210px;
   padding: 18px;
 }
 /* movie modal */
@@ -90,18 +91,17 @@ html {
   border-radius: 5px;
   padding-left: 160px;
   margin-right: 50px;
+  margin-top: 160px;
 }
 
 /* input subscribe */
 .email {
   position: relative;
   margin-left: 10%;
-  margin-top: 8%;
 }
 
 .email_label > label {
   height: 26px;
-  margin-top: 50px;
   font-family: Sen;
   font-style: normal;
   font-size: 16px;
@@ -349,7 +349,6 @@ html {
 /* footer */
 .footer {
   width: 100%;
-  margin-top: 900px;
   height: 200px;
   background: linear-gradient(
     180deg,
@@ -382,9 +381,7 @@ html {
 }
 .content_footer_center > label {
   height: 24px;
-  left: 36.88%;
-  right: 37.43%;
-  top: calc(50% - 24px / 2 + 1091px);
+  
 
   font-family: Sen;
   font-style: normal;
@@ -393,7 +390,7 @@ html {
   line-height: 24px;
   /* identical to box height */
 
-  text-align: center;
+  
   letter-spacing: 0.4px;
   text-decoration-line: underline;
 
