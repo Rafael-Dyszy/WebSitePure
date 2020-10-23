@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
 }
@@ -483,3 +484,286 @@ color: #011226;
 mix-blend-mode: normal;
 opacity: 0.5;
 }
+
+
+
+@media screen and (max-width: 200px) and (min-width:420px) {
+    html{
+        margin: 0;
+    }
+    body{
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1315px;
+    }
+    
+    .nav{
+        display: flex;
+        justify-content: start !important;
+        width: 100% !important;
+        height: 80px !important;
+    }
+    .nav_logo{
+        margin-left: 20px !important;
+        width: 26px !important;
+        line-height: 74px !important;
+    }
+    .nav_menu > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;    
+        margin-left: -38% !important;
+        margin-top: 8px;
+      }
+      .nav_menu > ul > a {
+        font-size: 20px !important;
+        line-height: 19px;
+        color: #1c2085;
+        margin-left: 30px !important;
+      
+      }
+
+      .main{
+         position: relative;
+         display: flex;
+         flex-direction: column; 
+      }
+
+      .main_text{
+        font-size: 30px !important;
+        margin-top: 120px !important;
+      }
+
+      .email_label > label{
+          margin-left: 5%;
+          font-size: 16px;
+      }
+
+      .email_input > input{
+          display: block;
+          width: 360px !important;
+          margin-left: 4%;
+      }
+
+      .btn{
+          margin-top: 20px !important;
+          align-items: center;
+          margin-left: 4% !important;
+      }
+
+      .email{
+          display: block !important;
+          margin-top: 80px !important;
+      }
+
+      .team_icon > svg{
+          margin-top: -120px;
+          margin-left: 40% !important;
+      }
+
+      .team_media{
+          margin-top: 60px;
+          margin-right: -120% !important;
+         
+      }
+
+
+      .main_movie > img {
+        position: absolute;
+        width: 530px;
+        margin-top: 440px !important;
+        margin-left: -126px !important;
+      }
+
+      .team > h6{
+          margin-top: 380px;
+          margin-right: -120px !important;
+          font-size: 30px;
+          
+      }
+      .contact{
+          width: 125.5% !important;
+          margin-top: 300px;
+      }
+
+      .box_form{
+          align-items: center;
+      }
+
+      .box_form_inputs > input{
+        margin-right: 39px !important;
+      }
+
+      .footer{
+          height: 250px;
+          width:125%;
+      }
+
+      .content_footer{
+          display: flex;
+          flex-direction: column !important;
+          margin-left:10px !important;
+      }
+
+      .content_footer > img{
+          width: 80px;
+      }
+      .content_footer_center > label{
+          margin-left: 90px !important;
+      }
+
+      .content_footer > button{
+          margin: 40px auto;
+      }
+
+      .content_info{
+          display: flex;
+          flex-wrap: wrap;
+          border: none !important;
+      }
+
+      .content_info>p{
+          border: none !important;
+      }
+
+      /* modal */
+      .modal-content{
+          width: 430px;
+          height: 780px;
+      }
+
+      .modal-dialog > img{
+          width: 400px !important;
+            margin-left: 20px !important;
+            margin-top: 200px !important;
+      }
+  
+
+  }
+
+@media screen and (max-width:421px) and (min-width: 1000px) {
+    html{
+        margin: 0;
+    }
+    body{
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1315px;
+    }
+    
+    .nav{
+        position: fixed;
+        display: flex;
+        justify-content: space-between !important;
+        height: 80px !important;
+    }
+
+    .nav_logo{
+        margin-left: 10px !important;
+        line-height: 74px;
+    }
+    .nav_menu > ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;    
+        margin-left: -14% !important;
+        margin-top: 8px;
+      }
+      .main{
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+     }
+
+     .main_text{
+        font-size: 44px !important;
+        margin-top: 160px !important;
+      }
+
+      .email_label > label{
+        margin-left: 5%;
+        font-size: 16px;
+    }
+
+    .email_input > input{
+        width: 80% !important;
+        margin-left: 1%;
+    }
+    .btn{
+        max-width: 20% !important;
+        align-items: center;
+    }
+
+    .email{
+        display: block !important;
+        margin-top: 80px !important;
+    }
+
+    .team_icon > svg{
+        margin-top: -120px;
+    }
+
+    .team_media{
+        margin-top: 100px;       
+    }
+    .main_movie > img {
+        position: absolute;
+        width: 730px;
+        margin-top: 540px !important;
+        margin-left: -8%;
+      }
+
+      .team > h6{
+        margin-top: 100%;
+        font-size: 30px;   
+    }
+
+    /* .cards{
+        width: 150px;
+        height: 450px;
+    } */
+
+    .contact{
+        margin-top: 70%;
+    }
+
+    .content_footer{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .content_footer > img {
+        margin-right: 380px;
+      }
+
+    .content_footer > button{
+        width: 200px !important;
+        max-width: 200px;
+        /* margin-right: -180px !important; */
+    }
+
+    .content_footer_center{
+        position: absolute;
+    }
+
+     /* modal */
+     .modal-content{
+        width: 530px;
+        height: 780px;
+        margin-top: 200px;
+        margin-left: -10px;
+    }
+
+    .modal-dialog > img{
+        width: 680px !important;
+          margin-left: -80px !important;
+          margin-top: 400px !important;
+    }
+
+}
+
+
