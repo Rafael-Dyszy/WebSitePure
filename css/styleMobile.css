@@ -1,10 +1,20 @@
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1024px){
+    .nav{
+        display: flex;
+        justify-content: space-between !important;
+        height: 80px !important;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
     body{
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 1315px;}
+        height: 1315px;
+    }
     
     .nav{
         display: flex;
