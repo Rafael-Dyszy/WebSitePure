@@ -21,7 +21,7 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;    
-        margin-left: -180px;
+        margin-left: -38% !important;
         margin-top: 8px;
       }
       .nav_menu > ul > a {
@@ -67,12 +67,12 @@
 
       .team_icon > svg{
           margin-top: -120px;
-          margin-left: 40px !important;
+          margin-left: 40% !important;
       }
 
       .team_media{
           margin-top: 60px;
-          margin-right: -100% !important;
+          margin-right: -120% !important;
          
       }
 
@@ -81,7 +81,7 @@
         position: absolute;
         width: 530px;
         margin-top: 440px !important;
-        margin-left: -130px !important;
+        margin-left: -126px !important;
       }
 
       .team > h6{
@@ -113,7 +113,7 @@
       .content_footer{
           display: flex;
           flex-direction: column !important;
-          margin: 0 !important;
+          margin-left:10px !important;
       }
 
       .content_footer > img{
@@ -135,6 +135,18 @@
 
       .content_info>p{
           border: none !important;
+      }
+
+      /* modal */
+      .modal-content{
+          width: 430px;
+          height: 780px;
+      }
+
+      .modal-dialog > img{
+          width: 400px !important;
+            margin-left: 20px !important;
+            margin-top: 200px !important;
       }
 
   }
