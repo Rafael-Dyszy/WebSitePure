@@ -1,24 +1,22 @@
-
 * {
   margin: 0;
-}
+  padding: 0;
 
-body{
-  width: 100%;
-  background-image: url('../img/BG.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1315px;
 }
-
-html {
+html{
   scroll-behavior: smooth;
 }
 
+body{
+  background: url('../img/BG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
 .nav {
-  position: fixed;
-  width: 100%;
+  position: sticky;
   background-color: white;
   height: 66px;
   display: flex;
@@ -70,10 +68,15 @@ html {
 
 /* start main */
 .main {
-  position: relative;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 4%;
+  margin-top: 9%;
+}
+
+.main_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main_text {
@@ -83,22 +86,7 @@ html {
   letter-spacing: 0.2px;
   color: #fff;
   line-height: 52px;
-  margin-top: 210px;
-  padding: 18px;
-}
-/* movie modal */
-.main_movie > img {
-  width: 700px;
-  border-radius: 5px;
-  padding-left: 160px;
-  margin-right: 50px;
-  margin-top: 160px;
-}
-
-/* input subscribe */
-.email {
-  position: relative;
-  margin-left: 10%;
+  margin-top: -30px;
 }
 
 .email_label > label {
@@ -107,14 +95,20 @@ html {
   font-style: normal;
   font-size: 16px;
   line-height: 26px;
-  margin-bottom: 20px;
+  margin-top: 54px;
+  margin-bottom: 25px;
   color: #ffffff;
 
   mix-blend-mode: normal;
   opacity: 0.7;
 }
 
-.email_input > input {
+.main_input{
+  display: flex;
+  flex-direction: row;
+}
+
+.main_input > input {
   width: 480px;
   height: 42px;
   max-height: 42px;
@@ -123,7 +117,7 @@ html {
   margin-top: -5px;
 }
 
-.email_input > input::placeholder {
+.main_input > input::placeholder {
   font-family: Sen;
   font-size: 17px;
   line-height: 20px;
@@ -131,49 +125,57 @@ html {
   text-align: center;
 }
 
-.btn {
-  width: 12% !important;
-  margin-left: -80px !important;
+.main_input > .btn {
+  width: 154px ;
+  height: 42px ;
   color: #fff;
   background: #38a5db;
   border-radius: 25px;
-  height: 42px !important;
-  /* max-height: 44px !important; */
-  /* padding: 10px; */
+  margin-left: -77px;
 }
+
+.main_right{
+  display: flex;
+  flex-direction: column;
+}
+
+.main_movie > img {
+  width: 500px;
+  border-radius: 8px;
+}
+
+.main_media{
+  display: flex;
+  flex-direction: column;
+  margin-left: 420px;
+  margin-top: 100px;
+}
+
+.main_media > img{
+  width: 40px;  
+  margin-top: 10px;
+}
+
 
 /* start team */
 .team {
-  margin: 385px 80px 0 80px;
+  margin: 305px 80px 0 80px;
   height: 700px;
 }
 
 .team_icon {
+  text-align: center;
+  margin-top: -280PX;
   color: rgb(255, 255, 255);
-  margin-left: 48%;
-  margin-top: -260px;
-  margin-bottom: 150px;
-  /* box-sizing: border-box; */
-}
-
-.twiter {
-  width: 40px;
-  float: right;
-  margin-top: -150px;
-}
-.face {
-  width: 40px;
-  float: right;
-  margin-top: -100px;
 }
 
 .team > h6 {
   font-family: sen;
   font-weight: 400;
   font-size: 16px;
-  line-height: 34px;
   letter-spacing: 12px;
   text-align: center;
+  margin-top: 170PX;
 }
 
 .cards {
@@ -262,13 +264,12 @@ html {
 }
 .linkedinLink > img {
   width: 14px;
-  margin: 4px 14px;
+  margin: 0 14PX;
 }
 
 /* contact */
 .contact {
   width: 100%;
-  height: 750px;
   background-color: #252b42;
 }
 
@@ -485,285 +486,5 @@ mix-blend-mode: normal;
 opacity: 0.5;
 }
 
-
-
-@media screen and (max-width: 200px) and (min-width:420px) {
-    html{
-        margin: 0;
-    }
-    body{
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 1315px;
-    }
-    
-    .nav{
-        display: flex;
-        justify-content: start !important;
-        width: 100% !important;
-        height: 80px !important;
-    }
-    .nav_logo{
-        margin-left: 20px !important;
-        width: 26px !important;
-        line-height: 74px !important;
-    }
-    .nav_menu > ul {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;    
-        margin-left: -38% !important;
-        margin-top: 8px;
-      }
-      .nav_menu > ul > a {
-        font-size: 20px !important;
-        line-height: 19px;
-        color: #1c2085;
-        margin-left: 30px !important;
-      
-      }
-
-      .main{
-         position: relative;
-         display: flex;
-         flex-direction: column; 
-      }
-
-      .main_text{
-        font-size: 30px !important;
-        margin-top: 120px !important;
-      }
-
-      .email_label > label{
-          margin-left: 5%;
-          font-size: 16px;
-      }
-
-      .email_input > input{
-          display: block;
-          width: 360px !important;
-          margin-left: 4%;
-      }
-
-      .btn{
-          margin-top: 20px !important;
-          align-items: center;
-          margin-left: 4% !important;
-      }
-
-      .email{
-          display: block !important;
-          margin-top: 80px !important;
-      }
-
-      .team_icon > svg{
-          margin-top: -120px;
-          margin-left: 40% !important;
-      }
-
-      .team_media{
-          margin-top: 60px;
-          margin-right: -120% !important;
-         
-      }
-
-
-      .main_movie > img {
-        position: absolute;
-        width: 530px;
-        margin-top: 440px !important;
-        margin-left: -126px !important;
-      }
-
-      .team > h6{
-          margin-top: 380px;
-          margin-right: -120px !important;
-          font-size: 30px;
-          
-      }
-      .contact{
-          width: 125.5% !important;
-          margin-top: 300px;
-      }
-
-      .box_form{
-          align-items: center;
-      }
-
-      .box_form_inputs > input{
-        margin-right: 39px !important;
-      }
-
-      .footer{
-          height: 250px;
-          width:125%;
-      }
-
-      .content_footer{
-          display: flex;
-          flex-direction: column !important;
-          margin-left:10px !important;
-      }
-
-      .content_footer > img{
-          width: 80px;
-      }
-      .content_footer_center > label{
-          margin-left: 90px !important;
-      }
-
-      .content_footer > button{
-          margin: 40px auto;
-      }
-
-      .content_info{
-          display: flex;
-          flex-wrap: wrap;
-          border: none !important;
-      }
-
-      .content_info>p{
-          border: none !important;
-      }
-
-      /* modal */
-      .modal-content{
-          width: 430px;
-          height: 780px;
-      }
-
-      .modal-dialog > img{
-          width: 400px !important;
-            margin-left: 20px !important;
-            margin-top: 200px !important;
-      }
-  
-
-  }
-
-@media screen and (max-width:421px) and (min-width: 1000px) {
-    html{
-        margin: 0;
-    }
-    body{
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 1315px;
-    }
-    
-    .nav{
-        position: fixed;
-        display: flex;
-        justify-content: space-between !important;
-        height: 80px !important;
-    }
-
-    .nav_logo{
-        margin-left: 10px !important;
-        line-height: 74px;
-    }
-    .nav_menu > ul {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;    
-        margin-left: -14% !important;
-        margin-top: 8px;
-      }
-      .main{
-        position: relative;
-        display: flex;
-        flex-direction: column; 
-     }
-
-     .main_text{
-        font-size: 44px !important;
-        margin-top: 160px !important;
-      }
-
-      .email_label > label{
-        margin-left: 5%;
-        font-size: 16px;
-    }
-
-    .email_input > input{
-        width: 80% !important;
-        margin-left: 1%;
-    }
-    .btn{
-        max-width: 20% !important;
-        align-items: center;
-    }
-
-    .email{
-        display: block !important;
-        margin-top: 80px !important;
-    }
-
-    .team_icon > svg{
-        margin-top: -120px;
-    }
-
-    .team_media{
-        margin-top: 100px;       
-    }
-    .main_movie > img {
-        position: absolute;
-        width: 730px;
-        margin-top: 540px !important;
-        margin-left: -8%;
-      }
-
-      .team > h6{
-        margin-top: 100%;
-        font-size: 30px;   
-    }
-
-    /* .cards{
-        width: 150px;
-        height: 450px;
-    } */
-
-    .contact{
-        margin-top: 70%;
-    }
-
-    .content_footer{
-        display: flex !important;
-        justify-content: center !important;
-    }
-
-    .content_footer > img {
-        margin-right: 380px;
-      }
-
-    .content_footer > button{
-        width: 200px !important;
-        max-width: 200px;
-        /* margin-right: -180px !important; */
-    }
-
-    .content_footer_center{
-        position: absolute;
-    }
-
-     /* modal */
-     .modal-content{
-        width: 530px;
-        height: 780px;
-        margin-top: 200px;
-        margin-left: -10px;
-    }
-
-    .modal-dialog > img{
-        width: 680px !important;
-          margin-left: -80px !important;
-          margin-top: 400px !important;
-    }
-
-}
 
 
