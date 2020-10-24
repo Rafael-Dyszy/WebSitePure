@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 html{
   scroll-behavior: smooth;
@@ -63,7 +62,7 @@ body{
 
 .nav_menu > ul > a:hover {
   border-bottom: 2px solid #1c2085;
-  max-height: 18px;
+  max-height: 19px;
 }
 
 /* start main */
@@ -147,7 +146,7 @@ body{
 .main_media{
   display: flex;
   flex-direction: column;
-  margin-left: 420px;
+  margin-left: 80%;
   margin-top: 100px;
 }
 
@@ -175,7 +174,7 @@ body{
   font-size: 16px;
   letter-spacing: 12px;
   text-align: center;
-  margin-top: 170PX;
+  margin-top: 170px;
 }
 
 .cards {
@@ -381,7 +380,7 @@ body{
 
   color: #263396;
 }
-.content_footer_center > label {
+.content_footer_center > a {
   height: 24px;
   
 
