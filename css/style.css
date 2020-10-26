@@ -81,7 +81,7 @@ body{
 .main_text {
   font-family: sen;
   font-weight: 600;
-  font-size: 38px;
+  font-size: 2.2rem;
   letter-spacing: 0.2px;
   color: #fff;
   line-height: 52px;
@@ -139,7 +139,7 @@ body{
 }
 
 .main_movie > img {
-  width: 500px;
+  width: 90%;
   border-radius: 8px;
 }
 
@@ -206,8 +206,7 @@ body{
 
 .card_one > h6 {
   font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+  
   font-size: 13px;
   line-height: 18px;
   padding: 10px;
@@ -484,6 +483,14 @@ color: #011226;
 mix-blend-mode: normal;
 opacity: 0.5;
 }
+
+/* slide */
+
+.slide > input{
+  display: none;
+}
+
+  
 
 
 
