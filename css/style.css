@@ -11,7 +11,7 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
+  height: 900px;
 }
 
 .nav {
@@ -71,7 +71,7 @@ body{
 .main {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 9%;
+  margin-top: 14%;
 }
 
 .main_left{
