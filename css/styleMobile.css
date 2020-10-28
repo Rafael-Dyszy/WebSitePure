@@ -31,8 +31,8 @@
     margin-top: 45%;
   }
 
-  .main_movie > img {
-    width: 500px !important;
+  .main_movie > video {
+    width: 600px !important;
   }
 
   .team_icon {
@@ -68,7 +68,7 @@
     margin-left: -56px;
   }
 
-  .modal-dialog > img {
+  .modal-dialog > video {
     width: 120% !important;
     margin-top: 160px !important;
     margin-left: -50px !important;
@@ -169,8 +169,8 @@
     margin-top: -70px !important;
   }
 
-  .main_movie > img {
-    width: 20%;
+  .main_movie > video {
+    width: 90% !important;
     margin: 18px;
     margin-top: -20px;
   }
@@ -244,7 +244,7 @@
     margin: 10px 0 !important;
   }
 
-  .modal-dialog > img {
+  .modal-dialog > video {
     width: 100% !important;
     margin-top: 160px !important;
     margin-left: 0 !important;
