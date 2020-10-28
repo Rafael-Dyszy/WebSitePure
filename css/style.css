@@ -2,20 +2,21 @@
   margin: 0;
   padding: 0;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 
-body{
+body {
   background: url('../img/BG.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
+  height: 1000px;
+  max-height: 1100px;
 }
 
 .nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   background-color: white;
@@ -71,10 +72,10 @@ body{
 .main {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 14%;
+  margin-top: 10%;
 }
 
-.main_left{
+.main_left {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -104,7 +105,7 @@ body{
   opacity: 0.7;
 }
 
-.main_input{
+.main_input {
   display: flex;
   flex-direction: row;
 }
@@ -127,15 +128,15 @@ body{
 }
 
 .main_input > .btn {
-  width: 154px ;
-  height: 42px ;
+  width: 154px;
+  height: 42px;
   color: #fff;
   background: #38a5db;
   border-radius: 25px;
   margin-left: -77px;
 }
 
-.main_right{
+.main_right {
   display: flex;
   flex-direction: column;
 }
@@ -145,18 +146,17 @@ body{
   border-radius: 8px;
 }
 
-.main_media{
+.main_media {
   display: flex;
   flex-direction: column;
   margin-left: 80%;
   margin-top: 100px;
 }
 
-.main_media > img{
-  width: 40px;  
+.main_media > img {
+  width: 40px;
   margin-top: 10px;
 }
-
 
 /* start team */
 .team {
@@ -166,7 +166,7 @@ body{
 
 .team_icon {
   text-align: center;
-  margin-top: -280PX;
+  margin-top: -280px;
   color: rgb(255, 255, 255);
 }
 
@@ -193,7 +193,7 @@ body{
   height: 266px;
 }
 
-.card_one  > img {
+.card_one > img {
   align-content: center;
   border-radius: 80px;
 }
@@ -208,7 +208,7 @@ body{
 
 .card_one > h6 {
   font-family: Open Sans;
-  
+
   font-size: 13px;
   line-height: 18px;
   padding: 10px;
@@ -264,7 +264,7 @@ body{
 }
 .linkedinLink > img {
   width: 14px;
-  margin: 0 14PX;
+  margin: 0 14px;
 }
 
 /* contact */
@@ -383,7 +383,6 @@ body{
 }
 .content_footer_center > a {
   height: 24px;
-  
 
   font-family: Sen;
   font-style: normal;
@@ -392,7 +391,6 @@ body{
   line-height: 24px;
   /* identical to box height */
 
-  
   letter-spacing: 0.4px;
   text-decoration-line: underline;
 
@@ -439,8 +437,8 @@ body{
 }
 
 /* modal */
-.modal-content{
-  width:630px ;
+.modal-content {
+  width: 630px;
   height: 650px;
   border-radius: 20px;
   box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.25);
@@ -448,7 +446,7 @@ body{
   margin-top: -30px;
 }
 
-.modal-content> button> span{
+.modal-content > button > span {
   float: right;
   margin: 20px;
 }
@@ -459,40 +457,35 @@ body{
   overflow: auto;
 }
 
-.modal-content > h3{
-font-family: Sen;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 34px;
-margin-top: 20px;
+.modal-content > h3 {
+  font-family: Sen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 34px;
+  margin-top: 20px;
 
-text-align: center;
+  text-align: center;
 
-color: #38A5DB;
+  color: #38a5db;
 }
 
-.modal-content > h6{
-font-family: Open Sans;
-font-size: 13px;
-line-height: 18px;
-text-align: center;
-letter-spacing: 0.26px;
-margin-top: 24px;
-margin-bottom: -15px;
-color: #011226;
+.modal-content > h6 {
+  font-family: Open Sans;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.26px;
+  margin-top: 24px;
+  margin-bottom: -15px;
+  color: #011226;
 
-mix-blend-mode: normal;
-opacity: 0.5;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 
 /* slide */
 
-.slide > input{
+.slide > input {
   display: none;
 }
-
-  
-
-
-
