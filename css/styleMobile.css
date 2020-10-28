@@ -156,21 +156,17 @@
   }
 
   .team_icon {
-    margin-top: -750px !important;
+    margin-top: -700px !important;
   }
 
   .team > h6 {
-    margin-top: -70px !important;
+    margin-top: -120px !important;
   }
 
   .main_movie > video {
     width: 90% !important;
     margin: 18px;
-    margin-top: -120px;
-  }
-
-  .main_movie > img {
-    width: 90% !important;
+    margin-top: -10px;
   }
 
   .contact {

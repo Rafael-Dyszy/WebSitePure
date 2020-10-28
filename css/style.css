@@ -72,7 +72,7 @@ body {
 .main {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 8%;
+  margin-top: 11%;
 }
 
 .main_left {
@@ -143,7 +143,6 @@ body {
 
 .main_movie > video {
   width: 538px;
-  height: 355px;
   border-radius: 8px;
 }
 
