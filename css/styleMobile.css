@@ -15,7 +15,7 @@
   .main {
     flex-direction: column !important;
     align-items: center;
-    margin-top: 150px !important;
+    margin-top: 90px !important;
   }
 
   .main_right {
@@ -156,7 +156,7 @@
   }
 
   .team_icon {
-    margin-top: -700px !important;
+    margin-top: -740px !important;
   }
 
   .team > h6 {
@@ -166,7 +166,7 @@
   .main_movie > video {
     width: 90% !important;
     margin: 18px;
-    margin-top: -10px;
+    margin-top: -60px;
   }
 
   .contact {
